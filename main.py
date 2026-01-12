@@ -36,8 +36,8 @@ from config import (
 )
 
 # 重试配置
-MAX_RETRIES = 3          # 最大重试次数
-RETRY_INTERVAL = 10 * 60  # 重试间隔（秒）= 10 分钟
+MAX_RETRIES = 5          # 最大重试次数
+RETRY_INTERVAL = 15 * 60  # 重试间隔（秒）= 10 分钟
 
 # 时区：北京时间 UTC+8
 TZ_BEIJING = timezone(timedelta(hours=8))
